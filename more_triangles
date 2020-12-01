@@ -1,0 +1,21 @@
+from turtle import *
+def draw_triangle(length_of_side):
+    pendown()
+    forward(length_of_side)
+    left(120)
+    forward(length_of_side)
+    left(120)
+    forward(length_of_side)
+    left(120)
+    penup()
+
+length_of_side = int(input("Enter the length of one side: "))
+draw_triangle(length_of_side)
+forward(200)
+length_of_side = int(input('Enter the length of one side: '))
+draw_triangle(length_of_side)
+left(120)
+forward(200)
+length_of_side = int(input("Enter the length of one side: "))
+draw_triangle(length_of_side)
+

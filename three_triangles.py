@@ -1,5 +1,5 @@
-from turtle import *
-def draw_triangle():
+#from turtle import *
+def draw_triangle(side_length):
     '''Draws a triangle'''
     pendown()
     forward(100)
