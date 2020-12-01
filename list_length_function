@@ -1,0 +1,21 @@
+#create a function that returns the length of a list
+
+def list_length(a_list):
+    '''counts the length of a list'''
+    counter = 0
+    for value in list():
+        counter += 1
+    return counter
+
+def test_list_length():
+    '''Test length of list'''
+    assert list_length([]) == 0
+    assert list_length([1]) == 1
+    assert list_lenght([1,1]) == 2
+
+'''initialise a list'''
+lst = []
+
+'''count the number of values in the list'''
+
+test_list_length()
