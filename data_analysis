@@ -1,0 +1,20 @@
+'''find mean of a star rating system'''
+nums = [10,20,30,15,10,15]
+total = 0
+sum = 0
+for number in nums:
+    sum += number
+'''multiply value by its index
+add this to total'''
+for index in range(0,len(nums)):
+    total_star = nums[index] * index
+    total += total_star
+'''sum should == 100'''
+print(sum)
+print(total)
+mean = total/sum
+'''mean multiplied by 100 should equal total'''
+print(mean)
+
+
+
