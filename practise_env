@@ -1,11 +1,3 @@
-temperatures = [4.7,3,4.8,2,4.8]
-# set best_position to 0
-max_value = 0
-# for each position from 1 to length of list – 1:
-for time in range(0,len(temperatures)):
-    # if the item at position is better than the item at best_position:
-    if temperatures[time] > max_value:
-        # set best_position to position
-        max_value = time
-# print best_position
-print(max_value,':','00')
+list = ['1','2']
+list[1] = '3'
+print(list)
