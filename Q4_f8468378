@@ -1,24 +1,21 @@
 #Problem: Calculate number of litres of lemonade needed for an order according to size of bottle.
-
-#Input: number of bottles of lemonade
-number_of_bottles = 10
-#input: size of bottle
-size_of_bottle = 'large'
-#input: constant number
-constant_number = 0.9378
+#define the function
+def sum_lemonade(number_of_bottles, size_of_bottle, constant_number):
 #initialise sum
-sum_of_litres = 0
+    sum_of_litres = 0
 # If size equals large
-if size_of_bottle == 'large':
+    if size_of_bottle == 'large':
 ## (constant number x 3) x number of bottles
-    sum_of_litres = (constant_number * 3) * number_of_bottles
+        sum_of_litres = (constant_number * 3) * number_of_bottles
 # elif size equals medium
-elif size_of_bottle == 'medium':
+    elif size_of_bottle == 'medium':
 ##(constant number x 2) x  number of bottles
-    sum_of_litres = (constant_number * 2) * number_of_bottles
+        sum_of_litres = (constant_number * 2) * number_of_bottles
 # elif size equals small
-elif size_of_bottle == 'small':
+    elif size_of_bottle == 'small':
 ## constant number x number of bottles
-    sum_of_litres = constant_number * number_of_bottles
+        sum_of_litres = constant_number * number_of_bottles
 # litres of lemonade
-print(sum_of_litres)
+    return sum_of_litres
+
+sum_lemonade(10,'large',0.9378)
