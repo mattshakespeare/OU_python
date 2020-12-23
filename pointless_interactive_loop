@@ -1,0 +1,15 @@
+'''repeat user input unless user enters quit'''
+
+#initiate stop variable
+quit = False
+
+#while quit == False the loop will contine
+while quit != True:
+    user = input('Enter anything or quit to cancel program: ')
+    if user != 'quit' and user != 'stop':
+        print(user)
+    else:
+        quit = True
+
+
+
