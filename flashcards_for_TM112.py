@@ -6,7 +6,7 @@ Flashcard program
 from random import *
 import csv
 
-def flashcard_function():
+def show_flashcard():
     show_flashcard = True
     while show_flashcard == True:
         user = input('Enter s to show flashcard q to quit: ')
@@ -31,7 +31,7 @@ def file_to_dictionary(filename):
 glossary = file_to_dictionary('TM112_Glossary.txt')
 
 #show flashcard
-flashcard_function()
+show_flashcard()
 
 
 
